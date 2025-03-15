@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Multi-Language Debugger</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <h1>Multi-Language Debugger</h1>
+
+    <label for="language">Select Language:</label>
+    <select id="language">
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="php">PHP</option>
+        <option value="cpp">C++</option>
+        <option value="java">Java</option>
+    </select>
+
+    <textarea id="code" placeholder="Enter your code..." rows="12"></textarea>
+
+    <button onclick="runDebugger()">Run Code</button>
+
+    <h2>Output:</h2>
+    <pre id="output"></pre>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

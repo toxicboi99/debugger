@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #4caf50;
+}
+
+label, select, textarea, button {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+select {
+    background: #252526;
+    color: white;
+    border: 1px solid #4caf50;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+    background: #252526;
+    color: white;
+    border: 1px solid #4caf50;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+button {
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+pre {
+    background: #252526;
+    padding: 10px;
+    border-radius: 5px;
+    color: #00ff00;
+    width: 80%;
+    margin: auto;
+    min-height: 100px;
+    text-align: left;
+    overflow-x: auto;
+}
